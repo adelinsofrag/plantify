@@ -2,6 +2,15 @@
   padding: calc(var(--spacing-medium) * 3) var(--spacing-medium);
 }
 
+@media screen and (min-width: 992px) {
+  .max-width-and-fluid {
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    max-width: 992px;
+  }
+}
+
 .section {
   margin: var(--spacing-large) 0;
 }

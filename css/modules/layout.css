@@ -132,6 +132,10 @@
   padding: 0;
 }
 
+.py-10 {
+  padding: var(--spacing-small) 0;
+}
+
 .py-20 {
   padding: var(--spacing-medium) 0;
 }
