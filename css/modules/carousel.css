@@ -1,0 +1,26 @@
+.carousel {
+  height: 210px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.carousel-item {
+  display: inline-block;
+  height: 200px;
+}
+
+.carousel-image {
+  height: 100%;
+  max-width: 150px;
+  width: 100px;
+}
+
+.carousel-description {
+  font-size: var(--font-smallest);
+  height: 50px;
+  overflow: hidden;
+  text-align: left;
+  white-space: pre-wrap;
+  width: 100px;
+}

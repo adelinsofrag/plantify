@@ -1,0 +1,12 @@
+.background-plant-1 {
+  background: url("./../../img/4c7f6b7c810bf4df8768c23ab7579626.png") no-repeat;
+  background-size: contain;
+  height: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .background-plant-1 {
+    background: url("./../../img/monstera-obliqua-leaf-white.png") no-repeat;
+    background-size: contain;
+  }
+}

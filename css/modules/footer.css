@@ -1,0 +1,26 @@
+.footer-business-name {
+  color: var(--color-green);
+  font-family: var(--font-family-special);
+  font-size: var(--font-small);
+  letter-spacing: var(--letter-spacing-negative);
+  line-height: 1.2;
+  text-transform: lowercase;
+}
+
+.footer-logo {
+  background-image: url('./../../img/growth-close-up-environmental-lush-natural.png');
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-left: var(--spacing-large);
+}
+
+.footer-menu-item-link {
+  border-radius: 20px;
+  display: block;
+  padding: var(--spacing-small);
+}
+
+.footer-menu-item-link.active {
+  color: var(--color-accent);
+}

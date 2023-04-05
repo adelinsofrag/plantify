@@ -1,0 +1,38 @@
+/* ---------------------------------- */
+/*                Color               */
+/* ---------------------------------- */
+.color-white {
+  color: var(--color-white);
+}
+.color-darkwhite {
+  color: var(--color-darkwhite);
+}
+.color-green {
+  color: var(--color-green);
+}
+.color-accent {
+  color: var(--color-accent);
+}
+.color-black {
+  color: var(--color-black);
+}
+.color-white-on-hover:hover {
+  color: var(--color-white);
+  transition: all var(--transition-duration-standard) ease;
+}
+.color-darkwhite-on-hover:hover {
+  color: var(--color-darkwhite);
+  transition: all var(--transition-duration-standard) ease;
+}
+.color-green-on-hover:hover {
+  color: var(--color-green);
+  transition: all var(--transition-duration-standard) ease;
+}
+.color-accent-on-hover:hover {
+  color: var(--color-accent);
+  transition: all var(--transition-duration-standard) ease;
+}
+.color-black-on-hover:hover {
+  color: var(--color-black);
+  transition: all var(--transition-duration-standard) ease;
+}

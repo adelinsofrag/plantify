@@ -1,0 +1,7 @@
+.header {
+  background: url("./../../img/green-monstera-leaves-by-white-wall.jpg") no-repeat fixed center;
+  background-size: cover;
+  height: calc(100vh - 50px);
+  padding: var(--spacing-small);
+  position: relative;
+}

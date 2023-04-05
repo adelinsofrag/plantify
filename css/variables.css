@@ -1,0 +1,46 @@
+/* ---------------------------------- */
+/*                Theme               */
+/* ---------------------------------- */
+:root {
+  /* ---------------------------------- */
+  /*               Colors               */
+  /* ---------------------------------- */
+  --color-accent: #b99274;
+  --color-black: #354733;
+  --color-darkwhite: #f3f3fb;
+  --color-green: #8a9b6e;
+  --color-white: #f8f9fb;
+  /* ---------------------------------- */
+  /*          Background Colors         */
+  /* ---------------------------------- */
+  --bg-color-accent: var(--color-accent);
+  --bg-color-black: var(--color-black);
+  --bg-color-darkwhite: var(--color-darkwhite);
+  --bg-color-green: var(--color-green);
+  --bg-color-white: var(--color-white);
+  /* ---------------------------------- */
+  /*                Sizes               */
+  /* ---------------------------------- */
+  --spacing-large: 40px;
+  --spacing-medium: 20px;
+  --spacing-small: 10px;
+  --spacing-smallest: 5px;
+  /* ---------------------------------- */
+  /*         Transition Duration        */
+  /* ---------------------------------- */
+  --transition-duration-long: 1s;
+  --transition-duration-short: 0.25s;
+  --transition-duration-standard: 0.5s;
+  /* ---------------------------------- */
+  /*             Typography             */
+  /* ---------------------------------- */
+  --font-family-body: "Roboto", sans-serif;
+  --font-family-special: "Montserrat", sans-serif;
+  --font-hero: 32px;
+  --font-large: 24px;
+  --font-medium: 16px;
+  --font-small: 12px;
+  --font-smallest: 8px;
+  --letter-spacing-negative: -1px;
+  --letter-spacing-positive: 1px;
+}

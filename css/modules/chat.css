@@ -1,0 +1,36 @@
+.chat {
+  animation: pulse 2.5s infinite;
+  background-color: var(--bg-color-white);
+  border-radius: 50%;
+  border: 0.1px solid var(--color-green);
+  bottom: 10px;
+  box-shadow: 0 0 0 rgba(138, 155, 110, 0.4);
+  height: 40px;
+  position: fixed;
+  right: 10px;
+  width: 40px;
+  z-index: 999;
+}
+
+.chat::before {
+  content: "💬";
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(138, 155, 110, 0.4);
+    box-shadow: 0 0 0 0 rgba(138, 155, 110, 0.4);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(138, 155, 110, 0);
+    box-shadow: 0 0 0 10px rgba(138, 155, 110, 0);
+  }
+  100% {
+    -moz-box-shadow: 0 0 0 0 rgba(138, 155, 110, 0);
+    box-shadow: 0 0 0 0 rgba(138, 155, 110, 0);
+  }
+}

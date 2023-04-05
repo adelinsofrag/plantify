@@ -1,0 +1,38 @@
+/* ---------------------------------- */
+/*             Background             */
+/* ---------------------------------- */
+.background-color-white {
+  background-color: var(--bg-color-white);
+}
+.background-color-darkwhite {
+  background-color: var(--bg-color-darkwhite);
+}
+.background-color-green {
+  background-color: var(--bg-color-green);
+}
+.background-color-accent {
+  background-color: var(--bg-color-accent);
+}
+.background-color-black {
+  background-color: var(--bg-color-black);
+}
+.background-color-white-on-hover:hover {
+  background-color: var(--bg-color-white);
+  transition: all var(--transition-duration-standard) ease;
+}
+.background-color-darkwhite-on-hover:hover {
+  background-color: var(--bg-color-darkwhite);
+  transition: all var(--transition-duration-standard) ease;
+}
+.background-color-green-on-hover:hover {
+  background-color: var(--bg-color-green);
+  transition: all var(--transition-duration-standard) ease;
+}
+.background-color-accent-on-hover:hover {
+  background-color: var(--bg-color-accent);
+  transition: all var(--transition-duration-standard) ease;
+}
+.background-color-black-on-hover:hover {
+  background-color: var(--bg-color-black);
+  transition: all var(--transition-duration-standard) ease;
+}

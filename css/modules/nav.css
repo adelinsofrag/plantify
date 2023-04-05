@@ -1,0 +1,32 @@
+.menu {
+  overflow: hidden;
+  background-color: var(--bg-color-white);
+}
+
+.menu-item {
+  color: var(--color-green);
+  display: block;
+  float: right;
+  font-family: var(--font-family-special);
+  font-size: var(--font-small);
+  height: 100%;
+  letter-spacing: var(--letter-spacing-negative);
+  line-height: 1.5;
+  padding: calc(var(--spacing-small) * 1.5) var(--spacing-small);
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.menu-item.logo {
+  background-image: url("./../../img/growth-close-up-environmental-lush-natural.png");
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  padding-left: var(--spacing-large);
+}
+
+.menu-item:hover > a {
+  border-bottom: 1px solid;
+  transition: all var(--transition-duration-long) ease;
+}

@@ -1,0 +1,19 @@
+.input {
+  background-color: var(--bg-color-darkwhite);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  padding: var(--spacing-small);
+}
+
+.input:hover,
+.input:active,
+.input:focus {
+  outline: 2px solid var(--color-green);;
+ transition: all var(--transition-duration-standard) ease;
+}
+
+.button {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+  padding: var(--spacing-small) var(--spacing-large);
+}

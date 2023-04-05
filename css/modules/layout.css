@@ -1,0 +1,210 @@
+/* ---------------------------------- */
+/*                cards               */
+/* ---------------------------------- */
+.card {
+  background-color: var(--bg-color-white);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05);
+}
+/* ---------------------------------- */
+/*           Row and columns          */
+/* ---------------------------------- */
+.column-1 {
+  float: none;
+  padding: var(--spacing-medium);
+  width: 100%;
+}
+/* Create two equal columns that floats next to each other */
+.column-2 {
+  float: left;
+  padding: var(--spacing-medium);
+  width: 50%;
+}
+
+.column-3 {
+  float: left;
+  padding: var(--spacing-medium);
+  width: 33%;
+}
+
+.column-4 {
+  float: left;
+  padding: var(--spacing-medium);
+  width: 25%;
+}
+/* ---------------------------------- */
+/*   Clear floats after the columns   */
+/* ---------------------------------- */
+.row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+/* ---------------------------------- */
+/*               Margins              */
+/* ---------------------------------- */
+.my-10 {
+  margin: var(--spacing-small) 0;
+}
+
+.mx-10 {
+  margin: 0 var(--spacing-small);
+}
+
+.m-10 {
+  margin: var(--spacing-small);
+}
+
+.mt-10 {
+  margin-top: var(--spacing-small);
+}
+
+.ml-10 {
+  margin-left: var(--spacing-small);
+}
+
+.mr-10 {
+  margin-right: var(--spacing-small);
+}
+
+.mb-10 {
+  margin-bottom: var(--spacing-small);
+}
+
+.my-5 {
+  margin: var(--spacing-smallest) 0;
+}
+
+.mx-5 {
+  margin: 0 var(--spacing-smallest);
+}
+
+.m-5 {
+  margin: var(--spacing-smallest);
+}
+
+.mt-5 {
+  margin-top: var(--spacing-smallest);
+}
+
+.ml-5 {
+  margin-left: var(--spacing-smallest);
+}
+
+.mr-5 {
+  margin-right: var(--spacing-smallest);
+}
+
+.mb-5 {
+  margin-bottom: var(--spacing-smallest);
+}
+.my-20 {
+  margin: var(--spacing-medium) 0;
+}
+
+.mx-20 {
+  margin: 0 var(--spacing-medium);
+}
+
+.m-20 {
+  margin: var(--spacing-medium);
+}
+
+.mt-20 {
+  margin-top: var(--spacing-medium);
+}
+
+.ml-20 {
+  margin-left: var(--spacing-medium);
+}
+
+.mr-20 {
+  margin-right: var(--spacing-medium);
+}
+
+.mb-20 {
+  margin-bottom: var(--spacing-medium);
+}
+/* ---------------------------------- */
+/*              Paddings              */
+/* ---------------------------------- */
+.p-0 {
+  padding: 0;
+}
+
+.py-20 {
+  padding: var(--spacing-medium) 0;
+}
+
+.px-20 {
+  padding: 0 var(--spacing-medium);
+}
+
+.p-20 {
+  padding: var(--spacing-medium);
+}
+
+.pt-20 {
+  padding-top: var(--spacing-medium);
+}
+
+.pl-20 {
+  padding-left: var(--spacing-medium);
+}
+
+.pr-20 {
+  padding-right: var(--spacing-medium);
+}
+
+.pb-20 {
+  padding-bottom: var(--spacing-medium);
+}
+/* ---------------------------------- */
+/*               Display              */
+/* ---------------------------------- */
+.inline {
+  display: inline;
+}
+/* ---------------------------------- */
+/*         SM Screens & upper         */
+/* ---------------------------------- */
+@media screen and (min-width: 576px) {
+  .main-wrapper {
+    padding: 0 var(--spacing-large);
+  }
+
+  .column-sm-1 {
+    float: none;
+    padding: var(--spacing-medium);
+    width: 100%;
+  }
+
+  .column-sm-2 {
+    float: left;
+    padding: var(--spacing-small);
+    width: 50%;
+  }
+
+  .column-sm-3 {
+    float: left;
+    padding: var(--spacing-small);
+    width: 33%;
+  }
+
+  .column-sm-4 {
+    float: left;
+    padding: var(--spacing-small);
+    width: 25%;
+  }
+}
+/* ---------------------------------- */
+/*                Other               */
+/* ---------------------------------- */
+.full-height {
+  height: 100vh;
+}
+
+.width-100 {
+  max-width: 100% !important;
+  width: 100% !important;
+}

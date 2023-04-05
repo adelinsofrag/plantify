@@ -1,0 +1,23 @@
+/* ---------------------------------- */
+/*               Outline              */
+/* ---------------------------------- */
+.outline-color-white-on-hover:hover {
+  outline: 2px solid var(--color-white);
+  transition: all var(--transition-duration-standard) ease;
+}
+.outline-color-darkwhite-on-hover:hover {
+  outline: 2px solid var(--color-darkwhite);
+  transition: all var(--transition-duration-standard) ease;
+}
+.outline-color-green-on-hover:hover {
+  outline: 2px solid var(--color-green);
+  transition: all var(--transition-duration-standard) ease;
+}
+.outline-color-accent-on-hover:hover {
+  outline: 2px solid var(--color-accent);
+  transition: all var(--transition-duration-standard) ease;
+}
+.outline-color-black-on-hover:hover {
+  outline: 2px solid var(--color-black);
+  transition: all var(--transition-duration-standard) ease;
+}

@@ -1,0 +1,7 @@
+.main-wrapper {
+  padding: calc(var(--spacing-medium) * 3) var(--spacing-medium);
+}
+
+.section {
+  margin: var(--spacing-large) 0;
+}

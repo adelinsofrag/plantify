@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+.title {
+  font-family: var(--font-family-special);
+  font-size: var(--font-large);
+  letter-spacing: var(--letter-spacing-negative);
+  text-align: left;
+}
+
+.subtitle {
+  font-family: var(--font-family-special);
+  letter-spacing: var(--letter-spacing-negative);
+  text-align: left;
+}
+
+.info {
+  display: block;
+  font-size: inherit;
+  font-size: var(--font-small);
+  letter-spacing: var(--letter-spacing-positive);
+  max-width: 80%;
+  width: auto;
+}
+/* ---------------------------------- */
+/*           Text transform           */
+/* ---------------------------------- */
+.uppercase {
+  text-transform: uppercase;
+}
+
+.lowercase {
+  text-transform: lowercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.first-letter-bigger::first-letter {
+  -webkit-initial-letter: 1.25;
+  initial-letter: 1.25;
+  margin-right: var(--spacing-smallest);
+}
+/* ---------------------------------- */
+/*              font size             */
+/* ---------------------------------- */
+.font-smaller {
+  font-size: var(--font-small);
+}
+
+.font-smallest {
+  font-size: var(--font-small);
+  letter-spacing: var(--letter-spacing-positive);
+}
+/* ---------------------------------- */
+/*              Alignment             */
+/* ---------------------------------- */
+.text-align-left {
+  text-align: left;
+}
+
+.text-align-center {
+  text-align: center;
+}
+/* ---------------------------------- */
+/*           Bigger screens           */
+/* ---------------------------------- */
+@media screen and (min-width: 576px) {
+  .title {
+    font-size: var(--font-hero);
+    text-align: center;
+    width: 50%;
+  }
+
+  .info {
+    font-size: var(--font-small);
+    max-width: unset;
+  }
+}

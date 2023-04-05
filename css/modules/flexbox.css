@@ -1,0 +1,104 @@
+.d-flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-column-reverse {
+  flex-direction: column-reverse;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
+.flex-gap {
+  gap: var(--spacing-large);
+}
+
+.align-content-center {
+  justify-content: center;
+}
+
+.push-left {
+  margin-right: auto;
+}
+
+.push-right {
+  margin-left: auto;
+}
+
+.m-auto {
+  margin: auto;
+}
+
+.width-25 {
+  width: 25%;
+}
+
+.width-50 {
+  width: 50%;
+}
+
+.width-75 {
+  width: 75%;
+}
+
+.width-100 {
+  width: 100%;
+}
+
+@media screen and (min-width: 576px) {
+  .width-sm-25 {
+    width: 25%;
+  }
+
+  .width-sm-50 {
+    width: 50%;
+  }
+
+  .width-sm-75 {
+    width: 75%;
+  }
+
+  .width-sm-100 {
+    width: 100%;
+  }
+}
+
+/* articles */
+.reverse-columns-odd .article:nth-child(odd) {
+  flex-direction: column-reverse;
+}
+.reverse-columns-even .article:nth-child(even) {
+  flex-direction: column-reverse;
+}
+.reverse-rows-odd .article:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+.reverse-rows-even .article:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.flex-1 {
+  flex: 1;
+}
+.flex-2 {
+  flex: 2;
+}
+.flex-3 {
+  flex: 3;
+}
+.flex-4 {
+  flex: 4;
+}
