@@ -2,9 +2,7 @@
 /*       CSS modules aggregator                                         */
 /*       Include all the files needed for all the pages                 */
 /* -------------------------------------------------------------------- */
-
 @import url("variables.css");
-
 /* ----------- CSS Modules ---------- */
 @import url("./modules/base.css");
 @import url("./modules/layout.css");
